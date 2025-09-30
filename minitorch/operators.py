@@ -22,12 +22,12 @@ def id(x: float) -> float:
 
 def add(x: float, y: float) -> float:
     "$f(x, y) = x + y$"
-    return x + y
+    return float(x + y)
 
 
 def neg(x: float) -> float:
     "$f(x) = -x$"
-    return -x
+    return float(-x)
 
 
 def lt(x: float, y: float) -> float:
